@@ -18,7 +18,7 @@ Project for CS 3630: Intro to Robotics and Perception with Youngjoon Lim in Spri
 3. Install [Cozmo](https://apps.apple.com/us/app/cozmo/id1154282030) on iOS device
 
 ## Image Classification
-Train an image classifier to classify 7 different symbols below and "none" if it does not recognize any symbols within the image.
+Train an image classifier to classify 7 different symbols (drone, inspection, order, plane, truck, hands, place) below and "none" if it does not recognize any symbols within the image.
 
 <img src="images/symbols.PNG" width="600">
 

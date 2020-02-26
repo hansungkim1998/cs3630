@@ -44,7 +44,7 @@ Make the Cozmo Robot perform certain tasks depending on the symbol it sees.
 1. Download the folder [FiniteStateMachine](FiniteStateMachine/)
 2. Connect computer to iOS device
 3. Wirelessly connect iOS device to Cozmo and enable SDK Mode
-4. Run by executing the command: `python3 finite_state_machine.py
+4. Run by executing the command: `python3 finite_state_machine.py`
    - If there is no "model.sav" file in the folder, the program will train a model before starting up the finite state machine
    - If there already exists a "model.sav" file in the folder, the program will load the existing model
    - To force the program to train a new model, use the command: `python3 finite_state_machine.py train`

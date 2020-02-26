@@ -29,7 +29,14 @@ The 824 pre-labeled images in the [train](ImageClassification/train/) folder wer
 2. Run the file [image_classification.py](ImageClassification/image_classification.py)
 
 ## Finite State Machine
-Make the Cozmo Robot perform certain tasks depending on the symbol it sees.
+Make the Cozmo Robot perform certain tasks depending on the symbol it sees. The states and actions are summarized in the table below.
+
+| State | Action |
+| --- | --- |
+| *Idle* | Monitor the image stream from the camera and classify each image using the trained model. If a symbol is recognized, Cozmo will say the name of the recognized symbol, then switch to the appropriate state. |
+| *Drone* | Cozmo will locate a cube within its view, pick up the cube, drive forward with the cube for 10cm, put down the cube, and drive backwards for 10cm. Then return to *Idle* state. |
+| *Order* | Cozmo will drive in a circle with a radius of 10cm, then return to *Idle* state. |
+| *Inspection* | Cozmo will drive in a square with 20cm sides, while continuously rasing and lowering the lift slowly. Lower the lift at the end of the behavior, then return to *Idle* state. |
 
 ### Adding Training Images
 1. Download the folder [FiniteStateMachine](FiniteStateMachine/)

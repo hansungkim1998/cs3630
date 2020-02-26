@@ -13,6 +13,7 @@ Project for CS 3630: Intro to Robotics and Perception with Youngjoon Lim in Spri
    - Install [SciPy](https://scipy.org/install.html)
    - Install [Scikit-learn](https://scikit-learn.org/stable/install.html)
    - Install [Scikit-image](http://scikit-image.org/docs/dev/install.html)
+   - Install [Cozmo SDK](http://cozmosdk.anki.com/docs/)
 2. (Recommended) Install [PyCharm](https://www.jetbrains.com/pycharm/download)
 3. Install [Cozmo](https://apps.apple.com/us/app/cozmo/id1154282030) on iOS device
 

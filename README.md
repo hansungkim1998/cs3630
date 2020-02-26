@@ -37,6 +37,7 @@ Make the Cozmo Robot perform certain tasks depending on the symbol it sees.
 3. Wirelessly connect iOS device to Cozmo and enable SDK Mode
 4. Execute the commands in the command line with the format:  
    `python3 collectImages.pynumImgPerLabel label1 label2 ...`
-   - To collect 8 images, one of each image type: `python3 collectImages.py1 drone inspection order plane truck hands place none`
+   - To collect 8 images, one of each image type:  
+   `python3 collectImages.py1 drone inspection order plane truck hands place none`
 
 

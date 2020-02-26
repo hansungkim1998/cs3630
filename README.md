@@ -17,7 +17,7 @@ Project for CS 3630: Intro to Robotics and Perception with Youngjoon Lim in Spri
 
 ## Image Classification
 Train an image classifier to classify 7 different symbols below and "none" if it does not recognize any symbols within the image.
-<img src="images/symbols.png" width="600">
+<img src="images/symbols.PNG" width="600">
 The 824 pre-labeled images in the [train](ImageClassification/train/) folder were used to train the classifier and were tested using the 175 images in the [test](ImageClassification/test/) folder.
 
 ### Running Program

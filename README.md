@@ -35,7 +35,7 @@ Make the Cozmo Robot perform certain tasks depending on the symbol it sees.
 1. Download the folder [FiniteStateMachine](FiniteStateMachine/)
 2. Connect computer to iOS device
 3. Wirelessly connect iOS device to Cozmo and enable SDK Mode
-4. Execute the commands in the command line with the format: 
+4. Execute the commands in the command line with the format:  
    `python3 collectImages.pynumImgPerLabel label1 label2 ...`
    - To collect 8 images, one of each image type: `python3 collectImages.py1 drone inspection order plane truck hands place none`
 

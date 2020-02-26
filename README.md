@@ -6,7 +6,7 @@ Project for CS 3630: Intro to Robotics and Perception with Youngjoon Lim in Spri
 ### Devices
 1. Computer (macOS or Windows)
 2. Smartphone (iOS)
-3. [Cozmo Robot](https://anki.com/en-us/cozmo/shop-now.html)
+3. [Cozmo Robot with Interactive Cubes](https://anki.com/en-us/cozmo/shop-now.html)
 
 ### Installations
 1. Install [Python 3](https://www.python.org/downloads/) and required packages

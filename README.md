@@ -27,3 +27,15 @@ The 824 pre-labeled images in the [train](ImageClassification/train/) folder wer
 ### Running Program
 1. Download the folder [ImageClassification](ImageClassification/)
 2. Run the file [image_classification.py](ImageClassification/image_classification.py)
+
+## Finite State Machine
+Make the Cozmo Robot perform certain tasks depending on the symbol it sees.
+
+### Adding Training Images
+1. Download the folder [FiniteStateMachine](FiniteStateMachine/)
+2. Connect computer to iOS device
+3. Wirelessly connect iOS device to Cozmo and enable SDK Mode
+4. Execute the commands in the command line with the format: `python3 collectImages.pynumImgPerLabel label1 label2 ...`
+   - To collect 8 images, one of each image type: `python3 collectImages.py1 drone inspection order plane truck hands place none`
+
+

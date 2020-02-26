@@ -24,7 +24,7 @@ Train an image classifier to classify 7 different symbols below and "none" if it
 
 The 824 pre-labeled images in the [train](ImageClassification/train/) folder were used to train the classifier and were tested using the 175 images in the [test](ImageClassification/test/) folder.
 
-### Running Program
+### Running the Program
 1. Download the folder [ImageClassification](ImageClassification/)
 2. Run the file [image_classification.py](ImageClassification/image_classification.py)
 
@@ -40,4 +40,11 @@ Make the Cozmo Robot perform certain tasks depending on the symbol it sees.
    - To collect 8 images, one of each image type:  
    `python3 collectImages.py1 drone inspection order plane truck hands place none`
 
-
+### Running the Program
+1. Download the folder [FiniteStateMachine](FiniteStateMachine/)
+2. Connect computer to iOS device
+3. Wirelessly connect iOS device to Cozmo and enable SDK Mode
+4. Run by executing the command: `python3 finite_state_machine.py
+   - If there is no "model.sav" file in the folder, the program will train a model before starting up the finite state machine
+   - If there already exists a "model.sav" file in the folder, the program will load the existing model
+   - To force the program to train a new model, use the command: `python3 finite_state_machine.py train`
